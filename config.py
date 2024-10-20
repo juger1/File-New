@@ -19,15 +19,15 @@ PINNED = True if os.environ.get("PINNED", "TRUE") == "TRUE" else False
 PHOTO_URL = (environ.get('PHOTO_URL', 'https://envs.sh/wZJ.jpg')).split()
 
 # Force user to join your backup channel, leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002005229886"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002198612616"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002145917406"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002120663458"))
 
 # URLs are strings, so you may want to strip them in your main code
-REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+LWJv7cjURvoyYWU1")
-REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+R6xc_7a0yX4xYzVl")
+REQUEST1 = os.environ.get("REQUEST1", "https://t.me/+4_XXp0Yxets4YTY9") #Group
+REQUEST2 = os.environ.get("REQUEST2", "https://t.me/+20OFTiqrJSNhMDE1") #Channel
 
 # Bot token, API ID, and hash
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7288528064:AAE8CFN268-DFirMUYngqgRSc85WULDqpMo") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7227898838:AAE09d00tLDqS2_QbykRIz8LRi8NSwtL3F4") 
 APP_ID = int(os.environ.get("APP_ID", "25695562"))
 API_HASH = os.environ.get("API_HASH", "0b691c3e86603a7e34aae0b5927d725a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001902545745"))
@@ -42,10 +42,10 @@ DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "69"))
 START_MSG = os.environ.get("START_MESSAGE", "<blockquote><b>Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. 💾</b></blockquote>")
 OWNER_TAG = os.environ.get("OWNER_TAG", "StupidBoi69")
-TIME = int(os.environ.get("TIME", "3600"))
+TIME = int(os.environ.get("TIME", "1800"))
 
     
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400"))
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "46800"))
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/Adult_Elixir")
 
 UPI_QR_CODE_URL = os.environ.get("UPI_QR_CODE_URL", "https://graph.org/file/fd1487021734ee86c78b4.jpg")
